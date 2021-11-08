@@ -2,11 +2,14 @@ package tutorial;
 
 public class Dog extends Pet{
     private boolean dewormed;
+    private static int numberOfDogs = 0;
 
     public Dog(String name, int age, boolean dewormed)
     {
         super(name, age);
         this.dewormed = dewormed;
+
+        numberOfDogs++;
     }
 
     @Override
@@ -32,5 +35,9 @@ public class Dog extends Pet{
 
     public void setDewormed(boolean dewormed) {
         this.dewormed = dewormed;
+    }
+
+    public static int getNumberOfDogs() {
+        return numberOfDogs;
     }
 }
