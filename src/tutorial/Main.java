@@ -8,11 +8,13 @@ public class Main {
     private static int[] homeworkScores = new int[7];
 
     public static void main(String[] args) {
-        System.out.println(testScores[0]);
+//        System.out.println(testScores[0]);
+//
+//        homeworkScores[0] = 90;
+//        homeworkScores[1] = 38;
+//
+//        System.out.println(Arrays.toString(homeworkScores));
 
-        homeworkScores[0] = 90;
-        homeworkScores[1] = 38;
-
-        System.out.println(Arrays.toString(homeworkScores));
+        System.out.println("Hello " + "World! x" + 12);
     }
 }
